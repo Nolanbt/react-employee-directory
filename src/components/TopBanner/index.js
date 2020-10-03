@@ -6,7 +6,7 @@ function TopBanner() {
         <div className="jumbotron jumbotron-fluid bg-info">
             <div className="container">
                 <h1 className="display-4 text-center font-weight-bold">Employee Directory</h1>
-                <p className="lead text-center">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                <p className="lead text-center"></p>
             </div>
         </div>
     )
