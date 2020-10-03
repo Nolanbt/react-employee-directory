@@ -39,9 +39,7 @@ function App() {
     )
   }
 
-  // let sort = true;
-
-  const handleSortBtn = (event) => {
+  const handleSortBtn = () => {
     setOrderBy(!ascending);
     if(ascending) {
       employeeSearch.sort((a, b) => (a.name > b.name) ? 1 : -1)
